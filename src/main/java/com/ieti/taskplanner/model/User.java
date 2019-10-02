@@ -1,4 +1,5 @@
 package com.ieti.taskplanner.model;
+
 import java.util.ArrayList;
 import java.util.List;
 /**
@@ -55,4 +56,12 @@ public class User {
         taskList.add(task);
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
 }
